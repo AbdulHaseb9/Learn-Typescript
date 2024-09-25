@@ -27,7 +27,7 @@ console.log("Multiple Values Array", arr2);
 //
 //
 // 1- Normal Method
-let normalArray: string[] = ["By", "Normal", "Array", "method"];
+let normalArray: any[] = ["By", "Normal", "Array", "method"];
 console.log(normalArray);
 
 //

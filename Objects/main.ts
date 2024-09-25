@@ -1,5 +1,31 @@
 // Objects
 
+// YOu can also define type of this object
+
+// also you can do it with type if you have multiple objects with same datatype but if you want to add values use other
+
+// type userObj = {
+//   username: string;
+//   email: string;
+//   password: string;
+// };
+
+// let user: userObj = {
+//   username: "haseebsheikh",
+//   email: "haseebsheikh2380@gmail.com",
+//   password: "haseebsheikh2380",
+// };
+
+//
+// another option
+//
+
+// let user: { username: string; email: string; password: string } = {
+//   username: "haseebsheikh",
+//   email: "haseebsheikh2380@gmail.com",
+//   password: "haseebsheikh2380",
+// };
+
 let user: any = {
   username: "haseebsheikh",
   email: "haseebsheikh2380@gmail.com",
