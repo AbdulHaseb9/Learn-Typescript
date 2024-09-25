@@ -2,4 +2,14 @@ run command to build config file of typescript
 
 tsc -init 
 
-then run tsc -w to compile multiple files at a time and automatically update when you do any changes
+then run tsc -w to compile multiple files at a time and automatically update when you do any 
+
+*
+*
+let assume you have 100 file and you want to compile 70 file then use
+
+include and exclude in tsconfig.json
+
+*
+*
+if you want to compile modern javascript use "target": "ES6", in tsconfig.json file under compiler option
