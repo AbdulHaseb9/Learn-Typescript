@@ -1,0 +1,5 @@
+run command to build config file of typescript 
+
+tsc -init 
+
+then run tsc -w to compile multiple files at a time and automatically update when you do any changes

@@ -53,3 +53,17 @@ console.log("Enum  - " + Color.Green);
 //
 // assign one or more type is union
 var arr = "union";
+// 
+// 
+//
+//
+// In TypeScript, the never type represents values that never occur. It's typically used for functions that:
+//
+// Never return because they throw an error
+function apiEror(msg, code) {
+    throw {
+        message: msg,
+        code: code,
+    };
+}
+console.log(apiEror("Server Failed", 401));
